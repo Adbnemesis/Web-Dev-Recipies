@@ -1,0 +1,35 @@
+<% layout('layouts/boilerplate')%>
+    <div id="content">
+
+        <h1>All Recipes</h1>
+
+
+
+
+        <% for (let recipe of recipes){%>
+            <div class="card mb-2">
+                <div class=" row">
+                    <div class="col-12">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <%= recipe.title %>
+                            </h5>
+                            <p class="card-text">
+                                <%= recipe.description %>
+                            </p>
+                            <p class="card-text">
+                                <small class="text-muted">
+                                    <%= recipe.location%>
+                                </small>
+                            </p>
+                            <a class="btn btn-primary" href="/recipes/<%=recipe._id%>">View
+                                <%=recipe.title%>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <% }%>
+                <a href="/recipes/new">Add a Recipe!</a>
+    </div>

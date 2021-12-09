@@ -1,0 +1,45 @@
+body{background-image:url("Bgcooking.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-attachment: fixed;
+    
+}
+#main{
+    text-align:center;
+}
+
+#navbar,#foot{
+    background: black;
+}
+#content{
+  
+    
+    text-align: center;
+    /* background: rgba(0,0,0,0.8); */
+  
+    background-color: rgba(0, 0, 0, 0.336);
+    border-radius: 5px;
+    color: #333;
+    font-family: sans-serif;
+    line-height: 1.5;
+    /* max-width: 50%; */
+    padding: 1rem 2rem;
+    backdrop-filter: blur(10px);
+    /* margin: auto; */
+  width: 70%;
+  margin:5% auto;
+    
+}
+
+#toggle{
+    color:white;
+}
+
+#show,#newrec,#edit,#homecontent{
+    background-color: rgba(161, 159, 159, 0.548);
+    backdrop-filter: blur(15px);
+    margin-top:5%;
+    
+
+}
+

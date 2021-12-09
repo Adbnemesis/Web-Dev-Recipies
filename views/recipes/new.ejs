@@ -1,0 +1,28 @@
+<% layout('layouts/boilerplate')%>
+    <div class="row p-2" id="newrec">
+        <h1 class="text-center">New Recipe</h1>
+        <div class="col-6 offset-3">
+            <form action="/recipes" method="POST" novalidate class="validated-form">
+                <div class="mb-3">
+                    <label class="form-label" for="title">Food item</label>
+                    <input class="form-control" type="text" id="title" name="rec[title]" required>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label" for="description">Recipe</label>
+                    <textarea class="form-control" type="text" id="description" name="rec[description]"
+                        required></textarea>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <button class="btn btn-success">Add Your Recipe</button>
+                </div>
+            </form>
+            <a href="/recipes">All Recipes</a>
+        </div>
+    </div>
