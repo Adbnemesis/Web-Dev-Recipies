@@ -1,1 +1,1 @@
-A web based application for posting food recipies online. They can be edited, reviewed and deleted. For running this website, node_modules are required to be installed. It runs using node.js and mongoDB aswell.
+The site lets users post,edit and delte their recipes. They can also get reviews from other users. For running it, you need to install the necessary node_modules and have mongoDB and node.js already setup in your device.
