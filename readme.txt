@@ -1,1 +1,1 @@
-The site lets users post,edit and delte their recipes. They can also get reviews from other users. For running it, you need to install the necessary node_modules and have mongoDB and node.js already setup in your device.
+The site lets users post,edit and delete their recipes. They can also get reviews from other users. For running it, you need to install the necessary node_modules and have mongoDB and node.js already setup in your device.
